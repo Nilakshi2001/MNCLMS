@@ -1,16 +1,19 @@
 .navbar {
-  background-color: #800000;
-  color: white;
-  padding: 1rem;
+  background-color: hsl(0, 100%, 25%);
+  color:blue;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 200px; /* Increased height */
+  padding: 0 2rem;
 }
 
 .nav-left a {
-  color: white;
-  margin-right: 1rem;
+  color: lightblue;
+  margin-right: 1.5rem;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.1rem;
 }
 
 .nav-left a:hover {
@@ -18,5 +21,6 @@
 }
 
 .logo {
-  height: 40px;
+  height: 150px; /* slightly smaller than full navbar height */
+  object-fit: contain;
 }
