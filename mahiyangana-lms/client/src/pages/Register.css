@@ -1,0 +1,49 @@
+/* Register.css */
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbNchyrWkGPmfYmAs275Ad_SVjbrg_MP0dMA&s"); /* Make sure this image is inside your public folder */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.register-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.register-box h2 {
+  text-align: center;
+}
+
+.register-message {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.register-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #800000; /* maroon */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
